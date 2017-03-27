@@ -15,6 +15,10 @@ Then run
 ```sh
 carthage update --platform iOS
 ```
+To update a single entry put the name of the library written equal to Cartfile, if that doesn't work put the last part of the library's github url.
+```sh
+carthage update LibraryName --platform iOS
+```
 If using SwiftJSON and having an error
 ```sh
 carthage update --platform iOS --no-use-binaries
