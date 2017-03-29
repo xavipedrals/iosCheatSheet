@@ -36,3 +36,6 @@ $(SRCROOT)/Carthage/Build/iOS/Box.framework $(SRCROOT)/Carthage/Build/iOS/Result
 $(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework
 ```
 This script works around an App Store submission bug triggered by universal binaries and ensures that necessary bitcode-related files and dSYMs are copied when archiving.
+
+## Git
+Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
