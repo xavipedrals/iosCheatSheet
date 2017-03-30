@@ -39,3 +39,5 @@ This script works around an App Store submission bug triggered by universal bina
 
 ## Git
 Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
+
+http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html
