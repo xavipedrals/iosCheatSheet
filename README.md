@@ -59,8 +59,14 @@ Go to your home folder and edit the .gitconfig file (if it doesn't exist create 
         keepBackup = false
 ```
 ### Gitflow commands
+git co -b devNewBranch
+(Do all the work you want)
+git co develop
 git fetch origin
 git rebase -pk origin/develop
+git merf devNewBranch
+(solve conflicts)
+git push origin develop
 ### iTerm2
 Go to https://www.iterm2.com and download the app. This is your new terminal forever.
 ### OhMyZsh
@@ -73,7 +79,15 @@ Go to OhMyZsh and install it https://github.com/robbyrussell/oh-my-zsh. Now you 
 ### Gitignore
 Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
 
+## Rx Swift (Reactive Programming)
+Here you can find RxSwift and some examples https://github.com/ReactiveX/RxSwift.
+For when default Rx table/collectionViews falls short https://github.com/RxSwiftCommunity/RxDataSources.
+### RxMarbles
+This let's you see in a super easy graphic way the manipulations you can do to an observable. I use it a lot.
+http://rxmarbles.com
+
 ## iOS Assets (generate @3x, @2x)
 To generate the image assets here you have an automator service that will be the best thing to generate @2x and @1x images from @3x images. 
 http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html
 If you need to add @3x suffix to images names you can select multiple images and do a multiple rename.
+
