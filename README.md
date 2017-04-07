@@ -61,7 +61,14 @@ Go to your home folder and edit the .gitconfig file (if it doesn't exist create 
 ### Gitflow commands
 git fetch origin
 git rebase -pk origin/develop
+### iTerm2
+Go to https://www.iterm2.com and download the app. This is your new terminal forever.
 ### OhMyZsh
+Go to OhMyZsh and install it https://github.com/robbyrussell/oh-my-zsh. Now you have iTerm2 + OhMyZsh. Apply the git plugin at least as explained in the web. Then go to preferences in iTerm2 and go to Profiles -> Defaut -> Colors -> Colors Presets... and choose "Solarized Dark", I recomend you change some colors for the Solarized Light to have a fancier terminal like this:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/Screen%20Shot%202017-04-07%20at%2013.18.04.png" width="60%" margin="auto">
+</p>
 
 ### Gitignore
 Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
