@@ -91,3 +91,8 @@ To generate the image assets here you have an automator service that will be the
 http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html
 If you need to add @3x suffix to images names you can select multiple images and do a multiple rename.
 
+## Struggling with Date
+Here you have the most useful web for playing with Date formats in Swift
+http://nsdateformatter.com
+
+
