@@ -95,4 +95,6 @@ If you need to add @3x suffix to images names you can select multiple images and
 Here you have the most useful web for playing with Date formats in Swift
 http://nsdateformatter.com
 
-
+## iOS icon sizes
+If you doubt about the icon sizes in a iOS app here you have the matrix you are looking for:
+https://developer.apple.com/ios/human-interface-guidelines/graphics/custom-icons/
