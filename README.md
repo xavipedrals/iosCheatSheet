@@ -98,3 +98,7 @@ http://nsdateformatter.com
 ## iOS icon sizes
 If you doubt about the icon sizes in a iOS app here you have the matrix you are looking for:
 https://developer.apple.com/ios/human-interface-guidelines/graphics/custom-icons/
+
+## Push notifications
+To test your push notifications you can use this app, Pusher, easy installed via Homebrew:
+https://github.com/noodlewerk/NWPusher
