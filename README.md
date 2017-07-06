@@ -102,3 +102,22 @@ https://developer.apple.com/ios/human-interface-guidelines/graphics/custom-icons
 ## Push notifications
 To test your push notifications you can use this app, Pusher, easy installed via Homebrew:
 https://github.com/noodlewerk/NWPusher
+
+## Working with Xcode beta
+You can have the stable version and the beta version of Xcode installed withou problem. The thing you must take into account is the compiler. Probably the ncompiler will have different versions of Swift and this can be a problem especially when using external libraries. To correct this problem you can run:
+
+```sh
+sudo xcode-select --switch /Applications/Xcode-beta.app/Contents/Developer
+```
+
+Then to update the libraries and compile them in the latest version of Swift you can run:
+```sh
+carthage update --platform iOS --no-use-binaries
+```
+
+To revert and use the stable version of Xcode you will need to recompile you libraries, before that be sure to run:
+
+```sh
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+```
+
