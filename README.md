@@ -103,6 +103,10 @@ https://developer.apple.com/ios/human-interface-guidelines/graphics/custom-icons
 To test your push notifications you can use this app, Pusher, easy installed via Homebrew:
 https://github.com/noodlewerk/NWPusher
 
+## Trouble with autolayout
+If you have completely unreadable layout errors just paste them here:
+https://www.wtfautolayout.com
+
 ## Working with Xcode beta
 You can have the stable version and the beta version of Xcode installed withou problem. The thing you must take into account is the compiler. Probably the ncompiler will have different versions of Swift and this can be a problem especially when using external libraries. To correct this problem you can run:
 
