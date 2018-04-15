@@ -96,7 +96,7 @@ The following automator script let's you select a 1024x1024 image and generates 
 
 [Download automator file](https://github.com/xavipedrals/iosCheatSheet/raw/master/App%20asset%20generator.zip)
 <p align="center">
-<img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/automator.jpg" width="60%" margin="auto">
+<img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/automator.jpg" width="20%" margin="auto">
 </p>
 
 
