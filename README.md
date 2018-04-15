@@ -87,9 +87,18 @@ This let's you see in a super easy graphic way the manipulations you can do to a
 http://rxmarbles.com
 
 ## iOS Assets (generate @3x, @2x)
-To generate the image assets here you have an automator service that will be the best thing to generate @2x and @1x images from @3x images. 
+To generate the image assets here you have an automator service that will be the best thing to generate @2x and @1x images from @3x images.
 http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html
 If you need to add @3x suffix to images names you can select multiple images and do a multiple rename.
+
+## iOS App Icon 
+The following automator script let's you select a 1024x1024 image and generates all the assets that Apple asks you for your app icon.
+
+[Download automator file](https://github.com/xavipedrals/iosCheatSheet/raw/master/App%20asset%20generator.zip)
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/automator.jpg" width="60%" margin="auto">
+</p>
+
 
 ## Struggling with Date
 Here you have the most useful web for playing with Date formats in Swift
@@ -124,4 +133,3 @@ To revert and use the stable version of Xcode you will need to recompile you lib
 ```sh
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 ```
-
