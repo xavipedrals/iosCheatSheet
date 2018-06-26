@@ -1,7 +1,7 @@
 # iOS Cheatsheet
 Here's a list of things and commands that I use commonly when working in iOS.
 
-## 🔧Carthage commands
+## 🛠 Carthage commands
 Install
 ```sh
 brew update
@@ -37,7 +37,7 @@ $(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework
 ```
 This script works around an App Store submission bug triggered by universal binaries and ensures that necessary bitcode-related files and dSYMs are copied when archiving.
 
-## Git
+## 📮 Git
 
 ### Alias
 Go to your home folder and edit the .gitconfig file (if it doesn't exist create it). Add this:
@@ -79,19 +79,19 @@ Go to OhMyZsh and install it https://github.com/robbyrussell/oh-my-zsh. Now you 
 ### Gitignore
 Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
 
-## 🎏Rx Swift (Reactive Programming)
+## 🎏 Rx Swift (Reactive Programming)
 Here you can find RxSwift and some examples https://github.com/ReactiveX/RxSwift.
 For when default Rx table/collectionViews falls short https://github.com/RxSwiftCommunity/RxDataSources.
-### 🎈RxMarbles
+### 🎈 RxMarbles
 This let's you see in a super easy graphic way the manipulations you can do to an observable. I use it a lot.
 http://rxmarbles.com
 
-## 📷iOS Assets (generate @3x, @2x)
+## 📷 iOS Assets (generate @3x, @2x)
 To generate the image assets here you have an automator service that will be the best thing to generate @2x and @1x images from @3x images.
 http://kristian.co/2014/10/07/a-workflow-for-scaling-retina-assets.html
 If you need to add @3x suffix to images names you can select multiple images and do a multiple rename.
 
-## ✒️iOS App Icon 
+## ✒️ iOS App Icon 
 The following automator script let's you select a 1024x1024 image and generates all the assets that Apple asks you for your app icon.
 
 [Download automator file](https://github.com/xavipedrals/iosCheatSheet/raw/master/App%20asset%20generator.zip)
@@ -100,23 +100,23 @@ The following automator script let's you select a 1024x1024 image and generates 
 </p>
 
 
-## 🗓Struggling with Date
+## 🗓 Struggling with Date
 Here you have the most useful web for playing with Date formats in Swift
 http://nsdateformatter.com
 
-## 📏iOS icon sizes
+## 📏 iOS icon sizes
 If you doubt about the icon sizes in a iOS app here you have the matrix you are looking for:
 https://developer.apple.com/ios/human-interface-guidelines/graphics/custom-icons/
 
-## 📫Push notifications
+## 📫 Push notifications
 To test your push notifications you can use this app, Pusher, easy installed via Homebrew:
 https://github.com/noodlewerk/NWPusher
 
-## ✂️Trouble with autolayout
+## ✂️ Trouble with autolayout
 If you have completely unreadable layout errors just paste them here:
 https://www.wtfautolayout.com
 
-## 🔬Working with Xcode beta
+## 🔬 Working with Xcode beta
 You can have the stable version and the beta version of Xcode installed withou problem. The thing you must take into account is the compiler. Probably the ncompiler will have different versions of Swift and this can be a problem especially when using external libraries. To correct this problem you can run:
 
 ```sh
@@ -134,14 +134,14 @@ To revert and use the stable version of Xcode you will need to recompile you lib
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 ```
 
-## 🔨Debbuging tips and tricks
-### 👀po
+## 🔨 Debbuging tips and tricks
+### 👀 po
 Most basic command you need to know for the debugger is 
 ```sh
 po variable
 ```
 Which will print the contents of a variable.
-### 💪🏼expression
+### 💪 expression
 Here is where it starts to get interesting, `expresion` allows you to execute a line of code in real time without recompiling the app, for example:
 ```sh
 expresion isFinished = true
@@ -151,8 +151,19 @@ Would change the value of a variable. You can also do things like:
 expresion object.doWork()
 ```
 Which will run the function on run-time.
-### ⏸Breakpoints
+### ⏸ Breakpoints
 Breakpoints have more options than the majority of developers know, doble click a breakpoint and then an options panel as the one in the screenshot appears:
-<breakpoint-options>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/breakpoint-options.png" width="60%" margin="auto">
+</p>
+
 Here you can make your breakpoint conditional but the most interesting part is that your breakpoint can evaluate multiple debugger commands, like printing an object and changing a variable, like in the screenshot. Also the checkbox `Automatically continue` allows your execution to continue without stopping, this way you can inject code into the app for debugging purposes.
+### 🈺 Symbolic breakpoints
+You can create a symbolic breakpoint by pressing the + in the bottom left corner of the screen and then selecting Sybmolic breakpoint.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/create-symbolic-breakpoint.png" width="60%" margin="auto">
+</p>
+
 
