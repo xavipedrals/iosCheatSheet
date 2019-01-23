@@ -151,6 +151,9 @@ Would change the value of a variable. You can also do things like:
 expresion object.doWork()
 ```
 Which will run the function on run-time.
+### ☎️ HTTPS debugging
+If you have certificate pinning enabled and Charles is tricky to use try to add this library to your project https://github.com/pmusolino/Wormholy. It displays all the http requests made by a device by shaking it.
+
 ### ⏸ Breakpoints
 Breakpoints have more options than the majority of developers know, doble click a breakpoint and then an options panel as the one in the screenshot appears:
 
