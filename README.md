@@ -76,6 +76,24 @@ Go to OhMyZsh and install it https://github.com/robbyrussell/oh-my-zsh. Now you 
 <img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/Screen%20Shot%202017-04-07%20at%2013.18.04.png" width="60%" margin="auto">
 </p>
 
+### Use Sublime text from the terminal
+Although I generally use nano when editing text files from the terminal it might fall short sometimes, you can run Sublime Text from the termial after creating a symbolic link to a directory that is part of your $PATH.
+We are going to use /usr/local/bin/ so first do
+```sh
+echo $PATH
+```
+... and ensure that /usr/local/bin/ is part of it. Then ensure you can run sublime from the terminal using it's full path, try to run:
+```sh
+/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+```
+If it's successful it's time to create a symbolic link to /usr/local/bin/, run:
+```sh
+sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
+Now you should be able to run Sublime from the terminal by typing
+```sh
+subl
+```
 ### Gitignore
 Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
 
