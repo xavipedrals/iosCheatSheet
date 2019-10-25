@@ -1,6 +1,9 @@
 # iOS Cheatsheet
 Here's a list of things and commands that I use commonly when working in iOS.
 
+## 👍 Good practices
+Must read https://github.com/futurice/ios-good-practices
+
 ## 🛠 Carthage commands
 Install
 ```sh
