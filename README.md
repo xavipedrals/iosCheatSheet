@@ -190,4 +190,6 @@ You can create a symbolic breakpoint by pressing the + in the bottom left corner
 <img src="https://raw.githubusercontent.com/xavipedrals/iosCheatSheet/master/create-symbolic-breakpoint.png" width="60%" margin="auto">
 </p>
 
+## 👅 XCode eating up all the free space on your mac
+This article works like charm https://www.hackingwithswift.com/articles/18/how-to-make-xcode-take-up-less-space
 
